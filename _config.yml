@@ -22,7 +22,7 @@ domain: lemmyhelp.tet42.org
 url: https://lemmyhelp.tet42.org
 
 title: Lemmy Help
-matrix: https://matrix.to/#/#lemmy-support-new-instance:discuss.online
+
 # email: lemmyhelp@tet42.org
 description: >- # this means to ignore newlines until "baseurl:"
   A place to get help with Lemmy. Specifically with the docker version.

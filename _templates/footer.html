@@ -14,7 +14,6 @@
           </p>
         {%- if site.author %}
           <ul class="contact-list">
-            <li><a class="u-email" href="{{ site.matrix }}">Install Support Matrix Chat</a></li>
             {% if site.author.name -%}
               <li class="p-name">{{ site.author.name | escape }}</li>
             {% endif -%}
@@ -25,7 +24,8 @@
         {%- endif %}
         </div>
         <div class="footer-col">
-          <p>{{ site.description | escape }}</p>
+          <p>Stop by the Lemmy Admin <a href="https://matrix.to/#/#lemmy-support-new-instance:discuss.online" target="_new">Install Support channel</a> on Matrix if you have questions.</a></p>
+          
         </div>
       </div>
   
