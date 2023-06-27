@@ -80,6 +80,8 @@ services:
       - PICTRS__MEDIA__GIF__MAX_AREA=65536
       - PICTRS__MEDIA__GIF__MAX_FRAME_COUNT=400
     user: 991:991
+    # Be sure to create the volumes and volumes/pictrs directories and then run
+    # 'sudo chown 991:991 ./volumes/pictrs' from the same directory that your docker-compose.yml is in
     volumes:
       - ./volumes/pictrs:/mnt:Z
     restart: always
