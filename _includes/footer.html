@@ -14,13 +14,13 @@
           </p>
         {%- if site.author %}
           <ul class="contact-list">
+            <li><a class="u-email" href="https://matrix.to/#/#lemmy-support-new-instance:discuss.online" target="_blank">Install Support on Matrix</a></li>
             {% if site.author.name -%}
               <li class="p-name">{{ site.author.name | escape }}</li>
             {% endif -%}
             {% if site.author.email -%}
               <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
             {%- endif %}
-            <li><a class="u-email" href="https://matrix.to/#/#lemmy-support-new-instance:discuss.online">Install Support on Matrix</a></li>
           </ul>
         {%- endif %}
         </div>
