@@ -1,0 +1,77 @@
+/*Alternate itempage*/
+.itemBackdrop {
+  height: 31vh !important;
+  display: inherit;
+}
+.layout-desktop .detailRibbon {
+  margin-top: 0;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background: rgba(0,0,0,.2) !important;
+}
+.detailImageContainer .card.backdropCard {
+    top: 40vh;
+}
+
+.itemBackdrop::after {
+  background: rgba(0,0,0,.26) !important;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(2)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a
+  > h2 {
+  display: none;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(2)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a
+  > span {
+  display: none;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(2)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a:after {
+  content: 'Recently Added TV Shows ›';
+  font-size: 24px;
+  font-weight: normal;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(1)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a
+  > h2 {
+  display: none;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(1)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a
+  > span {
+  display: none;
+}
+#homeTab
+  > div
+  > div.section2
+  > div:nth-child(1)
+  > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left
+  > a:after {
+  content: 'Recently Added Movies ›';
+  font-size: 24px;
+  font-weight: normal;
+}
+div.starRatingContainer {
+  display: none;
+}
